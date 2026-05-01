@@ -414,6 +414,40 @@
     font-weight: 400;
   }
 
+  /* ─── VISION & MISSION ─── */
+  #vision { background: var(--paper); }
+  .vision-inner { max-width: 820px; margin: 0 auto; }
+  .vision-block { margin-top: 3rem; }
+  .vision-block + .vision-block { margin-top: 3.5rem; }
+  .vision-heading {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.65rem;
+    color: var(--accent);
+    margin-bottom: 1.25rem;
+    letter-spacing: -0.3px;
+    line-height: 1.2;
+  }
+  .vision-lede {
+    color: var(--ink);
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+  }
+  .vision-body {
+    color: var(--muted);
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+  .vision-divider {
+    width: 48px;
+    height: 2px;
+    background: var(--accent);
+    margin-top: 1.5rem;
+    opacity: 0.4;
+  }
+
   /* ─── RESPONSIVE ─── */
   @media (max-width: 768px) {
     nav { padding: 1rem 1.5rem; }
@@ -444,6 +478,7 @@
   <div class="logo">Sandra A. Luna</div>
   <div class="nav-links">
     <a href="#about">About</a>
+    <a href="#vision">Vision</a>
     <a href="#services">Services</a>
     <a href="/pricing">Pricing</a>
     <a href="#credentials">Credentials</a>
@@ -503,6 +538,33 @@
         <div class="stat-number">∞</div>
         <div class="stat-label">Curiosity & Drive</div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── VISION & MISSION ─── -->
+<section id="vision">
+  <div class="vision-inner">
+    <div class="section-label">Vision &amp; Mission</div>
+    <h2 class="section-title">Numbers That Serve the Life</h2>
+    <p class="section-desc">The reason Luna Abstracted exists, and the future we're building toward.</p>
+
+    <div class="vision-block">
+      <h3 class="vision-heading">Vision</h3>
+      <p class="vision-lede">
+        A world where financial clarity belongs to every solopreneur, creator, and underestimated woman — where the numbers serve the life, not the other way around.
+      </p>
+      <p class="vision-body">
+        In ten years, Luna Abstracted will be known not only as the brand that translates modern business finance into plain English for the people building at the intersection of accounting, creativity, and technology, but as a quiet, generative force that funds, teaches, and mentors the next wave of women-led ventures. Our aim is creative freedom without a ceiling — a business that earns well and channels a meaningful share of it into education and microloans for women who have long been locked out of capital and financial knowledge.
+      </p>
+      <div class="vision-divider"></div>
+    </div>
+
+    <div class="vision-block">
+      <h3 class="vision-heading">Mission</h3>
+      <p class="vision-body">
+        Luna Abstracted exists to translate modern business numbers into clear, actionable insight — pairing more than a decade of staff accounting experience with AI fluency and a creative-business sensibility shaped by art and technology. We help the people working where finance meets creativity — solo accountants, bookkeepers, creators, and small teams — move from financial chaos to confidence, and we reinvest what we earn into teaching finance, mindset, and resilience to women building businesses without a safety net.
+      </p>
     </div>
   </div>
 </section>
